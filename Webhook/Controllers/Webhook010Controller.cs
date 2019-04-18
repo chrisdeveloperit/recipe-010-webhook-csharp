@@ -117,7 +117,7 @@ namespace Webhook.Controllers
 		    sign_here_tab.RecipientId= "1";
 		    sign_here_tab.Name= "Please sign here";
 		    sign_here_tab.Optional= "false";
-		    sign_here_tab.ScaleValue = 1;
+		    sign_here_tab.ScaleValue = "1";
 		    sign_here_tab.TabLabel= "signer1sig";
 
 		    FullName full_name_tab = new FullName();

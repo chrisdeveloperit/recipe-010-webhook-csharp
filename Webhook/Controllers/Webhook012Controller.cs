@@ -135,7 +135,7 @@ namespace Webhook.Controllers
             sign_here_tab1.RecipientId = "1";
             sign_here_tab1.Name = "Please sign here";
             sign_here_tab1.Optional = "false";
-            sign_here_tab1.ScaleValue = 1;
+            sign_here_tab1.ScaleValue = "1";
             sign_here_tab1.TabLabel = "signer1sig";
 
             // Explicit position for doc 2
@@ -147,7 +147,7 @@ namespace Webhook.Controllers
             sign_here_tab2.YPosition = "40";
             sign_here_tab2.Name = "Please sign here";
             sign_here_tab2.Optional = "false";
-            sign_here_tab2.ScaleValue = 1;
+            sign_here_tab2.ScaleValue = "1";
             sign_here_tab2.TabLabel = "signer1_doc2";
 
             // Anchored for doc 3
@@ -159,7 +159,7 @@ namespace Webhook.Controllers
             sign_here_tab3.RecipientId = "1";
             sign_here_tab3.Name = "Please sign here";
             sign_here_tab3.Optional = "false";
-            sign_here_tab3.ScaleValue = 1;
+            sign_here_tab3.ScaleValue = "1";
             sign_here_tab3.TabLabel = "doc3_client_sig";
 
             // Anchored for doc 1
